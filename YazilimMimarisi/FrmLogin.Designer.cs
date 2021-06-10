@@ -1,7 +1,7 @@
 ﻿
 namespace YazilimMimarisi
 {
-    partial class Form1
+    partial class FrmLogin
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -54,7 +54,7 @@ namespace YazilimMimarisi
             this.txtPassword.Location = new System.Drawing.Point(175, 268);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(149, 35);
+            this.txtPassword.Size = new System.Drawing.Size(149, 33);
             this.txtPassword.TabIndex = 12;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -63,7 +63,7 @@ namespace YazilimMimarisi
             this.txtadmin.Location = new System.Drawing.Point(175, 207);
             this.txtadmin.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtadmin.Name = "txtadmin";
-            this.txtadmin.Size = new System.Drawing.Size(149, 35);
+            this.txtadmin.Size = new System.Drawing.Size(149, 33);
             this.txtadmin.TabIndex = 9;
             // 
             // label3
@@ -94,7 +94,7 @@ namespace YazilimMimarisi
             this.label1.Location = new System.Drawing.Point(101, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 82);
+            this.label1.Size = new System.Drawing.Size(230, 76);
             this.label1.TabIndex = 8;
             this.label1.Text = "LOG IN";
             // 
@@ -108,9 +108,9 @@ namespace YazilimMimarisi
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(451, 519);
@@ -124,7 +124,8 @@ namespace YazilimMimarisi
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "Form1";
+            this.Name = "FrmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

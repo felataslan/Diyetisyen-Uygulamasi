@@ -10,34 +10,39 @@ using System.Windows.Forms;
 
 namespace YazilimMimarisi
 {
-    public partial class Form2 : Form
+    public partial class FrmMenu : Form
     {
-        public Form2()
+        public FrmMenu()
         {
             InitializeComponent();
         }
 
         private void BtnCikis_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            FrmLogin form1 = new FrmLogin();
             form1.Show();
             this.Close();
         }
 
         private void BtnKayit_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            FrmHastaKayit form3 = new FrmHastaKayit();
             form3.Show();
             this.Hide();
         }
 
         private void BtnDiyetEkle_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            FrmDiyetAtama form4 = new FrmDiyetAtama();
             form4.Show();
             this.Hide();
         }
 
-        
+        private void BtnRapor_Click(object sender, EventArgs e)
+        {
+            FrmRapor frmRapor = new FrmRapor();
+            frmRapor.Show();
+            this.Close();
+        }
     }
 }
