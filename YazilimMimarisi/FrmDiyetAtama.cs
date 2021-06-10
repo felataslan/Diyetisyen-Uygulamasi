@@ -61,11 +61,6 @@ namespace YazilimMimarisi
             cmbDiyetTipi.Text = dataGridView1.Rows[secilenSatir].Cells[5].Value.ToString();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            FrmMenu frm = new FrmMenu();
-            frm.Show();
-            this.Close();
-        }
+
     }
 }

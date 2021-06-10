@@ -98,11 +98,6 @@ namespace YazilimMimarisi
             this.Close();
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            FrmMenu frm = new FrmMenu();
-            frm.Show();
-            this.Close();
-        }
+
     }
 }

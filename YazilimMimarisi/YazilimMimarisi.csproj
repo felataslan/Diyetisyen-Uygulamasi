@@ -56,23 +56,17 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmMenu.Designer.cs">
-      <DependentUpon>FrmMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmHastaKayit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmHastaKayit.Designer.cs">
-      <DependentUpon>FrmHastaKayit.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmDiyetAtama.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmDiyetAtama.Designer.cs">
       <DependentUpon>FrmDiyetAtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNewFlatDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewFlatDesign.Designer.cs">
+      <DependentUpon>FrmNewFlatDesign.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRapor.cs">
       <SubType>Form</SubType>
@@ -92,7 +86,19 @@
     <Compile Include="ReportBuildBase.cs" />
     <Compile Include="ReportInfoDB.cs" />
     <Compile Include="ReportManager.cs" />
+    <Compile Include="SecondUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecondUserControl.Designer.cs">
+      <DependentUpon>SecondUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seker.cs" />
+    <Compile Include="UserControlHastaKayit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlHastaKayit.Designer.cs">
+      <DependentUpon>UserControlHastaKayit.cs</DependentUpon>
+    </Compile>
     <Compile Include="YesillikDunyasiDiet.cs" />
     <Compile Include="_Diet_AppDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -102,14 +108,11 @@
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMenu.resx">
-      <DependentUpon>FrmMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmHastaKayit.resx">
-      <DependentUpon>FrmHastaKayit.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmDiyetAtama.resx">
       <DependentUpon>FrmDiyetAtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewFlatDesign.resx">
+      <DependentUpon>FrmNewFlatDesign.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRapor.resx">
       <DependentUpon>FrmRapor.cs</DependentUpon>
@@ -123,6 +126,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SecondUserControl.resx">
+      <DependentUpon>SecondUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlHastaKayit.resx">
+      <DependentUpon>UserControlHastaKayit.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

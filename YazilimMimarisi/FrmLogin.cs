@@ -20,16 +20,16 @@ namespace YazilimMimarisi
         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-2BOGKJG;Initial Catalog=Diet-App;Integrated Security=True");
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
+
             baglanti.Open();
             SqlCommand komut = new SqlCommand("Select * From Kullanici where KullaniciAdi=@p1 and Parola=@p2", baglanti);
             komut.Parameters.AddWithValue("@p1",txtadmin.Text);
-            komut.Parameters.AddWithValue("@p2",txtPassword.Text);
+            komut.Parameters.AddWithValue("@p2",textPassword.Text);
             SqlDataReader dr = komut.ExecuteReader();
             if (dr.Read())
             {
-                FrmMenu form2 = new FrmMenu();
-                form2.Show();
+                FrmNewFlatDesign frm = new FrmNewFlatDesign();
+                frm.Show();
                 this.Hide();
             }
             else
@@ -37,6 +37,11 @@ namespace YazilimMimarisi
                 MessageBox.Show("Hatalı girş yaptınız");
             }
             baglanti.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
