@@ -66,11 +66,17 @@ namespace YazilimMimarisi
             }
         }
 
-        private void FrmNewFlatDesign_Load(object sender, EventArgs e)
+        private void BtnRapor_Click(object sender, EventArgs e)
         {
-
+            SidePanel.Height = BtnRapor.Height;
+            SidePanel.Top = BtnRapor.Top;
         }
 
-
+        private void btnCikis_Click(object sender, EventArgs e)
+        {
+            FrmLogin login = new FrmLogin();
+            login.Show();
+            this.Close();
+        }
     }
 }

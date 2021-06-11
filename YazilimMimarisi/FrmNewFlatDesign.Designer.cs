@@ -81,6 +81,7 @@ namespace YazilimMimarisi
             this.btnCikis.Text = "   ÇIKIŞ";
             this.btnCikis.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCikis.UseVisualStyleBackColor = true;
+            this.btnCikis.Click += new System.EventHandler(this.btnCikis_Click);
             // 
             // BtnRapor
             // 
@@ -97,6 +98,7 @@ namespace YazilimMimarisi
             this.BtnRapor.Text = "   RAPOR";
             this.BtnRapor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnRapor.UseVisualStyleBackColor = true;
+            this.BtnRapor.Click += new System.EventHandler(this.BtnRapor_Click);
             // 
             // btnDiyetAdama
             // 
@@ -195,7 +197,6 @@ namespace YazilimMimarisi
             this.Name = "FrmNewFlatDesign";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmNewFlatDesign";
-            this.Load += new System.EventHandler(this.FrmNewFlatDesign_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FrmNewFlatDesign_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FrmNewFlatDesign_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.FrmNewFlatDesign_MouseUp);
