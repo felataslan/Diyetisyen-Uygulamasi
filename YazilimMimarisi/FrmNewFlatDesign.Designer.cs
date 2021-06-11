@@ -39,8 +39,9 @@ namespace YazilimMimarisi
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.userControlDiyetAtama1 = new YazilimMimarisi.UserControlDiyetAtama();
             this.userControlHastaKayit1 = new YazilimMimarisi.UserControlHastaKayit();
-            this.secondUserControl1 = new YazilimMimarisi.SecondUserControl();
+            this.userControlRapor1 = new YazilimMimarisi.UserControlRapor();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -168,6 +169,13 @@ namespace YazilimMimarisi
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // userControlDiyetAtama1
+            // 
+            this.userControlDiyetAtama1.Location = new System.Drawing.Point(243, 127);
+            this.userControlDiyetAtama1.Name = "userControlDiyetAtama1";
+            this.userControlDiyetAtama1.Size = new System.Drawing.Size(956, 593);
+            this.userControlDiyetAtama1.TabIndex = 6;
+            // 
             // userControlHastaKayit1
             // 
             this.userControlHastaKayit1.Location = new System.Drawing.Point(243, 127);
@@ -175,20 +183,21 @@ namespace YazilimMimarisi
             this.userControlHastaKayit1.Size = new System.Drawing.Size(956, 593);
             this.userControlHastaKayit1.TabIndex = 5;
             // 
-            // secondUserControl1
+            // userControlRapor1
             // 
-            this.secondUserControl1.Location = new System.Drawing.Point(243, 127);
-            this.secondUserControl1.Name = "secondUserControl1";
-            this.secondUserControl1.Size = new System.Drawing.Size(956, 593);
-            this.secondUserControl1.TabIndex = 4;
+            this.userControlRapor1.Location = new System.Drawing.Point(243, 127);
+            this.userControlRapor1.Name = "userControlRapor1";
+            this.userControlRapor1.Size = new System.Drawing.Size(956, 593);
+            this.userControlRapor1.TabIndex = 7;
             // 
             // FrmNewFlatDesign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 720);
+            this.Controls.Add(this.userControlRapor1);
+            this.Controls.Add(this.userControlDiyetAtama1);
             this.Controls.Add(this.userControlHastaKayit1);
-            this.Controls.Add(this.secondUserControl1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.panel2);
@@ -217,7 +226,8 @@ namespace YazilimMimarisi
         private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnClose;
-        private SecondUserControl secondUserControl1;
         private UserControlHastaKayit userControlHastaKayit1;
+        private UserControlDiyetAtama userControlDiyetAtama1;
+        private UserControlRapor userControlRapor1;
     }
 }

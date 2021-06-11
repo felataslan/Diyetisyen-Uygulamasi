@@ -11,26 +11,29 @@ using System.Data.SqlClient;
 
 namespace YazilimMimarisi
 {
-    public partial class FrmDiyetAtama : Form
+    public partial class UserControlDiyetAtama : UserControl
     {
-        public FrmDiyetAtama()
+        public UserControlDiyetAtama()
         {
             InitializeComponent();
         }
-
+        
         SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-2BOGKJG;Initial Catalog=Diet-App;Integrated Security=True");
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FrmLogin frmLogin = new FrmLogin();
-            frmLogin.Show();
-            this.Close();
-        }
-
-        private void Form4_Load(object sender, EventArgs e)
+        
+        private void UserControlDiyetAtama_Load(object sender, EventArgs e)
         {
             listele();
         }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            guncelle();
+            listele();
+        }
+
+        //SQL tablosunun datagridview de listeleme fonksiyonu
         private void listele()
         {
             DataTable dt = new DataTable();
@@ -39,18 +42,19 @@ namespace YazilimMimarisi
             dataGridView1.DataSource = dt;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        // Seçili hastanın diyet tipinin güncelleyen fonksiyon
+        private void guncelle()
         {
             baglanti.Open();
-            SqlCommand komutGuncelle = new SqlCommand("Update Hasta set DiyetTipi=@p1 Where ID=@p2",baglanti);
-            komutGuncelle.Parameters.AddWithValue("@p1",cmbDiyetTipi.Text);
-            komutGuncelle.Parameters.AddWithValue("@p2",lblID.Text);
+            SqlCommand komutGuncelle = new SqlCommand("Update Hasta set DiyetTipi=@p1 Where ID=@p2", baglanti);
+            komutGuncelle.Parameters.AddWithValue("@p1", cmbDiyetTipi.Text);
+            komutGuncelle.Parameters.AddWithValue("@p2", lblID.Text);
             komutGuncelle.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Güncelleme Başarılı");
-            listele();
         }
 
+        //datagridview de seçilen hastanın ID numarasını bulma
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int secilenSatir = dataGridView1.SelectedCells[0].RowIndex;
@@ -60,7 +64,5 @@ namespace YazilimMimarisi
             lblHastalik.Text = dataGridView1.Rows[secilenSatir].Cells[4].Value.ToString();
             cmbDiyetTipi.Text = dataGridView1.Rows[secilenSatir].Cells[5].Value.ToString();
         }
-
-
     }
 }

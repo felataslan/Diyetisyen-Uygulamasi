@@ -31,7 +31,14 @@ namespace YazilimMimarisi
         {
             SidePanel.Height = btnDiyetAdama.Height;
             SidePanel.Top = btnDiyetAdama.Top;
-            //secondUserControl1.BringToFront();
+            userControlDiyetAtama1.BringToFront();
+        }
+        private void BtnRapor_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = BtnRapor.Height;
+            SidePanel.Top = BtnRapor.Top;
+            userControlRapor1.BringToFront();
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -66,11 +73,7 @@ namespace YazilimMimarisi
             }
         }
 
-        private void BtnRapor_Click(object sender, EventArgs e)
-        {
-            SidePanel.Height = BtnRapor.Height;
-            SidePanel.Top = BtnRapor.Top;
-        }
+        
 
         private void btnCikis_Click(object sender, EventArgs e)
         {
