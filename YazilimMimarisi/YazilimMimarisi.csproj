@@ -63,12 +63,6 @@
     <Compile Include="FrmNewFlatDesign.Designer.cs">
       <DependentUpon>FrmNewFlatDesign.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmRapor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmRapor.Designer.cs">
-      <DependentUpon>FrmRapor.cs</DependentUpon>
-    </Compile>
     <Compile Include="GlutenFreeDiet.cs" />
     <Compile Include="Hasta.cs" />
     <Compile Include="HtmlReportBuilder.cs" />
@@ -111,9 +105,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmNewFlatDesign.resx">
       <DependentUpon>FrmNewFlatDesign.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmRapor.resx">
-      <DependentUpon>FrmRapor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

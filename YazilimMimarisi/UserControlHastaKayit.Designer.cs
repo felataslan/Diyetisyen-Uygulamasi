@@ -50,7 +50,7 @@ namespace YazilimMimarisi
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel1.Location = new System.Drawing.Point(345, 172);
+            this.panel1.Location = new System.Drawing.Point(345, 145);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(283, 4);
             this.panel1.TabIndex = 23;
@@ -61,7 +61,7 @@ namespace YazilimMimarisi
             this.btnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKaydet.Font = new System.Drawing.Font("Century Gothic", 13.97015F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKaydet.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnKaydet.Location = new System.Drawing.Point(345, 430);
+            this.btnKaydet.Location = new System.Drawing.Point(345, 403);
             this.btnKaydet.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(283, 41);
@@ -74,7 +74,7 @@ namespace YazilimMimarisi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 8.059701F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(345, 121);
+            this.label2.Location = new System.Drawing.Point(345, 94);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 20);
@@ -85,7 +85,7 @@ namespace YazilimMimarisi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 8.059701F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(345, 179);
+            this.label1.Location = new System.Drawing.Point(345, 152);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 20);
@@ -95,7 +95,7 @@ namespace YazilimMimarisi
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel2.Location = new System.Drawing.Point(345, 230);
+            this.panel2.Location = new System.Drawing.Point(345, 203);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(283, 4);
             this.panel2.TabIndex = 23;
@@ -104,7 +104,7 @@ namespace YazilimMimarisi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 8.059701F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(345, 237);
+            this.label3.Location = new System.Drawing.Point(345, 210);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 20);
@@ -114,7 +114,7 @@ namespace YazilimMimarisi
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel3.Location = new System.Drawing.Point(345, 288);
+            this.panel3.Location = new System.Drawing.Point(345, 261);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(283, 4);
             this.panel3.TabIndex = 23;
@@ -123,7 +123,7 @@ namespace YazilimMimarisi
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 8.059701F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(345, 295);
+            this.label4.Location = new System.Drawing.Point(345, 268);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 20);
@@ -133,7 +133,7 @@ namespace YazilimMimarisi
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel4.Location = new System.Drawing.Point(345, 347);
+            this.panel4.Location = new System.Drawing.Point(345, 320);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(283, 4);
             this.panel4.TabIndex = 23;
@@ -142,7 +142,7 @@ namespace YazilimMimarisi
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 8.059701F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(345, 354);
+            this.label5.Location = new System.Drawing.Point(345, 327);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 20);
@@ -152,7 +152,7 @@ namespace YazilimMimarisi
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel5.Location = new System.Drawing.Point(345, 408);
+            this.panel5.Location = new System.Drawing.Point(345, 381);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(283, 4);
             this.panel5.TabIndex = 23;
@@ -167,7 +167,7 @@ namespace YazilimMimarisi
             "obez",
             "çölyak",
             "şeker"});
-            this.cmbHastalikTipi.Location = new System.Drawing.Point(345, 314);
+            this.cmbHastalikTipi.Location = new System.Drawing.Point(345, 287);
             this.cmbHastalikTipi.Name = "cmbHastalikTipi";
             this.cmbHastalikTipi.Size = new System.Drawing.Size(283, 30);
             this.cmbHastalikTipi.TabIndex = 7;
@@ -183,7 +183,7 @@ namespace YazilimMimarisi
             "gluten free",
             "deniz ürünleri",
             "yeşillik dünyası"});
-            this.cmbDiyetTipi.Location = new System.Drawing.Point(345, 374);
+            this.cmbDiyetTipi.Location = new System.Drawing.Point(345, 347);
             this.cmbDiyetTipi.Name = "cmbDiyetTipi";
             this.cmbDiyetTipi.Size = new System.Drawing.Size(283, 30);
             this.cmbDiyetTipi.TabIndex = 8;
@@ -193,7 +193,7 @@ namespace YazilimMimarisi
             this.txtTC.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtTC.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTC.Font = new System.Drawing.Font("Century Gothic", 10.20895F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtTC.Location = new System.Drawing.Point(345, 144);
+            this.txtTC.Location = new System.Drawing.Point(345, 117);
             this.txtTC.Name = "txtTC";
             this.txtTC.Size = new System.Drawing.Size(283, 24);
             this.txtTC.TabIndex = 4;
@@ -203,7 +203,7 @@ namespace YazilimMimarisi
             this.txtAd.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtAd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtAd.Font = new System.Drawing.Font("Century Gothic", 10.20895F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtAd.Location = new System.Drawing.Point(345, 200);
+            this.txtAd.Location = new System.Drawing.Point(345, 173);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(283, 24);
             this.txtAd.TabIndex = 5;
@@ -213,7 +213,7 @@ namespace YazilimMimarisi
             this.txtSoyad.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtSoyad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoyad.Font = new System.Drawing.Font("Century Gothic", 10.20895F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtSoyad.Location = new System.Drawing.Point(345, 258);
+            this.txtSoyad.Location = new System.Drawing.Point(345, 231);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(283, 24);
             this.txtSoyad.TabIndex = 6;

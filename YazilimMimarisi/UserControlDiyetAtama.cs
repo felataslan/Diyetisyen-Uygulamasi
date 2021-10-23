@@ -18,7 +18,7 @@ namespace YazilimMimarisi
             InitializeComponent();
         }
         
-        SqlConnection baglanti = new SqlConnection(@"Data Source=DESKTOP-2BOGKJG;Initial Catalog=Diet-App;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection("Data Source=ESCOBAR\\SQLEXPRESS;Initial Catalog=HastaBilgileri;Integrated Security=True");
 
         
         private void UserControlDiyetAtama_Load(object sender, EventArgs e)

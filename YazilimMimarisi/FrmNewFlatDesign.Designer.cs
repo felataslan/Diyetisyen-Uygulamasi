@@ -42,7 +42,9 @@ namespace YazilimMimarisi
             this.userControlDiyetAtama1 = new YazilimMimarisi.UserControlDiyetAtama();
             this.userControlHastaKayit1 = new YazilimMimarisi.UserControlHastaKayit();
             this.userControlRapor1 = new YazilimMimarisi.UserControlRapor();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -138,6 +140,7 @@ namespace YazilimMimarisi
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(243, 0);
             this.panel2.Name = "panel2";
@@ -147,10 +150,11 @@ namespace YazilimMimarisi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 18.26866F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(249, 67);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.8209F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 42);
+            this.label1.Size = new System.Drawing.Size(157, 27);
             this.label1.TabIndex = 2;
             this.label1.Text = "C# Diet-App";
             // 
@@ -190,15 +194,27 @@ namespace YazilimMimarisi
             this.userControlRapor1.Size = new System.Drawing.Size(956, 593);
             this.userControlRapor1.TabIndex = 7;
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(1056, 46);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(64, 54);
+            this.button1.TabIndex = 8;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // FrmNewFlatDesign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 720);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.userControlRapor1);
             this.Controls.Add(this.userControlDiyetAtama1);
             this.Controls.Add(this.userControlHastaKayit1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -210,8 +226,9 @@ namespace YazilimMimarisi
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FrmNewFlatDesign_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.FrmNewFlatDesign_MouseUp);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -229,5 +246,6 @@ namespace YazilimMimarisi
         private UserControlHastaKayit userControlHastaKayit1;
         private UserControlDiyetAtama userControlDiyetAtama1;
         private UserControlRapor userControlRapor1;
+        private System.Windows.Forms.Button button1;
     }
 }

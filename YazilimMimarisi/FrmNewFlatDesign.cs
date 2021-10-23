@@ -41,13 +41,6 @@ namespace YazilimMimarisi
 
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-
-
         //Form hareket
         bool move;
         int mouse_x;
@@ -74,12 +67,22 @@ namespace YazilimMimarisi
         }
 
         
-
+        // Oturum sonlandırma butonu
         private void btnCikis_Click(object sender, EventArgs e)
         {
             FrmLogin login = new FrmLogin();
             login.Show();
             this.Close();
+        }
+
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/ferhateroglu");
         }
     }
 }
